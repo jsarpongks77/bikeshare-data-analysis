@@ -1,11 +1,14 @@
-### Date created
-Created This project on 29th November, 2019 inspired [by](https://drive.google.com/open?id=1tGM1IJo7ixYWAjneY-CnM2085bLsyP-R).
+# U.S. Bikeshare Data Analysis
 
-### **BikeShare Data Project**
-This project is the code for the Bikeshare Data analysis project as part of the Udacity Learning Python.
+A Python-based data analysis project exploring bikeshare usage patterns across Chicago, New York City, and Washington.
 
-The bikeshare_2.py script is an interactive terminal program that will prompt for responses then 
-investigate one of three data files to answer the following questions:
+## Project Overview
+
+This project was completed as part of the Udacity Programming for Data Science learning programme. It uses Python and pandas to analyse bikeshare data from three U.S. cities.
+
+The `bikeshare_2.py` script provides an interactive command-line interface that allows users to select a city, month, and day of the week. It then filters the selected dataset and calculates statistics about bikeshare usage.
+
+## Questions Explored
 
 1. What is the most popular month for start time?
 2. What is the most popular day of week for start time?
@@ -17,8 +20,9 @@ investigate one of three data files to answer the following questions:
 8. What are the counts of gender?
 9. What are the earliest, most recent, and most popular birth years?
 
-### Files used
-Data for the first six months of 2017 are provided for all three cities. All three of the data files contain the same core six (6) columns:
+## Dataset
+
+The project uses bikeshare data from the first six months of 2017 for Chicago, New York City, and Washington. The datasets contain six core columns:
 
 * Start Time (e.g. 2017-01-01 00:07:57)
 * End Time (e.g. 2017-01-01 00:20:53)
@@ -32,12 +36,9 @@ The Chicago and New York City files also have the following two additional colum
 * Gender
 * Birth Year
 
-The post-wrangled data files can be downloaded separately from [bikeshare-2.zip](https://drive.google.com/open?id=1XdN2xlBwow2gfE_Ptp3m2pnUIx8BBDTZ)
 
-### Credits
-* My invaluable appreciation goes to [Ozlerhakan](https://github.com/ozlerhakan/bikeshare/blob/master/bikeshare.py) and [Rounakarya](https://github.com/rounakarya/Explore-US-bikeshare-Data/blob/master/bikeshare_2.py)
-  for inspiring me from start to finish in making my bikeshare project completion a possibility.
-* [PandasDocs](https://pandas.pydata.org/pandas-docs/stable/) - pandas documentation was immensely helpful in understanding the implementation
-  of pandas methods used in this project.
-* Again, my [Udacity](https://www.udacity.com/) course instructors were extremely impactful from start to finish and i am grateful
-  to have gotten this privilege tap into their rich knowledge.
+## Acknowledgements
+
+This project was completed as part of the Udacity Programming for Data Science learning programme.
+
+The implementation was supported by the Udacity course materials and the pandas documentation. Additional references and examples consulted during development are acknowledged in the project's original commit history.
